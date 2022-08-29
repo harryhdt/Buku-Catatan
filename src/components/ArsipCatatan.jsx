@@ -36,8 +36,8 @@ function ArsipCatatan(props) {
           </div>
           <div
             className={
-              (data.expanded ? "max-h-[300px]" : "max-h-0") +
-              " border-t border-amber-400 pt-2 mt-2 max-h-0 overflow-hidden transition-all duration-300"
+              (data.expanded ? "max-h-[400px]" : "max-h-0") +
+              " border-t border-amber-400 pt-2 mt-2 overflow-hidden transition-all duration-300"
             }
           >
             {data.body}
